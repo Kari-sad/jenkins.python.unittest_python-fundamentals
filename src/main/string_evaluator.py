@@ -44,17 +44,3 @@ class StringManipulator(object):
 
     def reverse(self, string_to_be_reversed):
             return string_to_be_reversed[::-1]
-
-
-
-    def get_middle_character(self, string_to_fetch_from):
-        return None # TODO - Implement solution
-
-    def get_first_word(self, string_to_fetch_from):
-        return None # TODO - Implement solution
-
-    def get_second_word(self, string_to_fetch_from):
-        return None # TODO - Implement solution
-
-    def reverse(self, string_to_be_reversed):
-        return None # TODO - Implement solution
