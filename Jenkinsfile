@@ -9,7 +9,7 @@ node () {
 	}
 	stage ('Freestyle Project with python - Build') {
  	
-             powershell python -m unittest discover -s ./src/test/ -p '*_test.py'
+             powershell "python -m unittest discover -s ./src/test/ -p '*_test.py'"
 	}
 }
 }
