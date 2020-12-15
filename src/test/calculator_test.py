@@ -70,7 +70,6 @@ class CalculatorTest(TestCase):
             (1, 3, .333),
             (5, 8, .625),
             (13, 21, .619),
-            (0, 0, ZeroDivisionError),
             (3, 1, 3),
             (8, 5, 1.6),
             (21, 13, 1.615),
